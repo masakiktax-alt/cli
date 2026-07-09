@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>税務・行政手続リンク集|PSE総合会計 栗原正樹税理士事務所</title>
+<meta name="description" content="e-Tax・eLTAX・納税・インボイス・年末調整・社会保険・GビズIDなど、顧問先のお客様が迷いやすい公式サイトをまとめたリンク集です。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1C2B45;        /* 藍 */
+  --ink-soft:#3A4A66;
+  --paper:#FCFBF8;      /* 紙白 */
+  --panel:#F2F0EA;
+  --line:#DCD8CE;
+  --shu:#A8402F;        /* 朱 */
+  --shu-soft:#F6E9E5;
+  --text:#2B2B2B;
+  --muted:#6B685F;
+  --badge:#EDF1F6;
+  --radius:10px;
+  --serif:"Zen Old Mincho",serif;
+  --sans:"Noto Sans JP",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:120px}
+body{background:var(--paper);color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.8}
+a{color:inherit}
+::selection{background:var(--shu-soft)}
+
+/* ---------- ヘッダー ---------- */
+.site-head{border-bottom:1px solid var(--line);background:var(--paper)}
+.site-head .inner{max-width:1080px;margin:0 auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.office{font-family:var(--serif);font-weight:600;color:var(--ink);letter-spacing:.06em}
+.office small{display:block;font-family:var(--sans);font-weight:400;font-size:.72rem;color:var(--muted);letter-spacing:.14em}
+.head-note{font-size:.75rem;color:var(--muted);letter-spacing:.08em}
+
+/* ---------- ヒーロー ---------- */
+.hero{max-width:1080px;margin:0 auto;padding:56px 20px 40px;display:grid;grid-template-columns:auto 1fr;gap:36px;align-items:start}
+.tate{writing-mode:vertical-rl;font-family:var(--serif);font-size:1.05rem;letter-spacing:.35em;color:var(--shu);border-right:1px solid var(--line);padding-right:18px;height:12em;font-weight:600}
+.hero h1{font-family:var(--serif);font-size:clamp(1.7rem,4vw,2.5rem);color:var(--ink);letter-spacing:.05em;line-height:1.5;font-weight:700}
+.hero .lede{margin-top:16px;max-width:38em;color:var(--ink-soft)}
+.hero .lede b{color:var(--shu);font-weight:700}
+
+/* ---------- 今月の税務チェック ---------- */
+.tax-alert{max-width:1080px;margin:0 auto 28px;padding:0 20px}
+.tax-alert .box{background:var(--panel);border:1px solid var(--line);border-left:6px solid var(--ink);border-radius:var(--radius);padding:24px 26px}
+.tax-alert-label{font-size:.78rem;font-weight:700;letter-spacing:.14em;color:var(--shu)}
+.tax-alert h2{font-family:var(--serif);font-size:1.3rem;color:var(--ink);letter-spacing:.05em;margin:6px 0 18px;font-weight:700}
+.tax-cards{display:grid;gap:12px}
+.tax-card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+.tax-card h3{font-family:var(--serif);font-size:1.02rem;color:var(--ink);font-weight:600;margin-bottom:6px;display:flex;align-items:center;gap:8px}
+.tax-card h3::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--shu);flex:none;animation:tax-dot-blink 2.6s ease-in-out infinite}
+@keyframes tax-dot-blink{
+  0%,100%{opacity:1;transform:scale(1)}
+  50%{opacity:.3;transform:scale(.85)}
+}
+.tax-card p{font-size:.9rem;color:var(--text);line-height:1.75}
+.tax-card.caveat p{color:var(--ink-soft)}
+.tax-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.tax-links a{background:#fff;border:1px solid var(--ink);border-radius:999px;padding:7px 16px;color:var(--ink);text-decoration:none;font-size:.86rem;font-weight:700;letter-spacing:.03em;transition:background .15s,color .15s}
+.tax-links a:hover{background:var(--ink);color:#fff}
+.tax-note{margin-top:14px;font-size:.76rem;color:var(--muted);line-height:1.7}
+
+/* ---------- フィッシング注意 ---------- */
+.caution{max-width:1080px;margin:0 auto 8px;padding:0 20px}
+.caution .box{border:1px solid var(--shu);border-left:6px solid var(--shu);background:#fff;border-radius:var(--radius);padding:16px 20px;font-size:.92rem}
+.caution .box strong{color:var(--shu)}
+
+/* ---------- ナビ + 検索 ---------- */
+.toolbar{position:sticky;top:0;z-index:20;background:rgba(252,251,248,.95);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+.toolbar .inner{max-width:1080px;margin:0 auto;padding:10px 20px;display:flex;gap:12px;align-items:center}
+.search{flex:0 0 auto;display:flex;align-items:center;gap:8px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 14px;width:230px}
+.search svg{flex:none;color:var(--muted)}
+.search input{border:0;outline:0;background:transparent;font-family:var(--sans);font-size:.9rem;width:100%}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;font-size:.82rem;letter-spacing:.04em;border:1px solid var(--line);background:#fff;color:var(--ink-soft);border-radius:999px;padding:5px 14px;text-decoration:none;transition:all .15s}
+.chip:hover{border-color:var(--ink);color:var(--ink)}
+.chip.ai{border-color:var(--shu);color:var(--shu)}
+
+/* ---------- セクション ---------- */
+main{max-width:1080px;margin:0 auto;padding:8px 20px 80px}
+.section{padding-top:44px}
+.sec-head{display:flex;align-items:baseline;gap:14px;border-bottom:2px solid var(--ink);padding-bottom:10px;margin-bottom:20px}
+.sec-head .mon{font-family:var(--serif);color:var(--shu);font-size:.9rem;letter-spacing:.1em;font-weight:600}
+.sec-head h2{font-family:var(--serif);color:var(--ink);font-size:1.35rem;letter-spacing:.08em;font-weight:700}
+.sec-head .use{margin-left:auto;font-size:.78rem;color:var(--muted);letter-spacing:.05em}
+.sec-note{font-size:.86rem;color:var(--muted);margin:-8px 0 18px}
+
+/* ---------- カード ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.card{display:block;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px 18px 16px;text-decoration:none;transition:border-color .15s, box-shadow .15s;position:relative}
+.card:hover{border-color:var(--ink);box-shadow:0 2px 10px rgba(28,43,69,.08)}
+.card:focus-visible{outline:3px solid var(--shu);outline-offset:2px}
+.card h3{font-family:var(--serif);color:var(--ink);font-size:1.08rem;letter-spacing:.04em;font-weight:600;display:flex;align-items:center;gap:6px}
+.card h3 .ext{color:var(--muted);flex:none}
+.card p{font-size:.88rem;color:var(--text);margin-top:8px;line-height:1.7}
+.card .memo{margin-top:8px;font-size:.8rem;color:var(--shu);background:var(--shu-soft);border-radius:6px;padding:6px 10px;line-height:1.6}
+.domain{display:inline-block;margin-top:10px;font-size:.72rem;letter-spacing:.03em;color:var(--ink);background:var(--badge);border:1px solid #D5DCE6;border-radius:4px;padding:2px 8px}
+.domain::before{content:"公式 ";color:var(--shu);font-weight:700}
+.card.hidden{display:none}
+
+/* ---------- AIセクション ---------- */
+#ai .sec-head{border-bottom-color:var(--shu)}
+#ai .sec-head h2{color:var(--shu)}
+.ai-caution{border:1px solid var(--shu);background:#fff;border-radius:var(--radius);padding:18px 20px;margin-bottom:20px}
+.ai-caution h3{font-family:var(--serif);color:var(--shu);font-size:1rem;letter-spacing:.06em;margin-bottom:8px}
+.ai-caution p{font-size:.88rem}
+.tag{display:inline-block;font-size:.7rem;letter-spacing:.06em;color:#fff;background:var(--ink);border-radius:4px;padding:2px 8px;margin-bottom:8px}
+
+/* ---------- 空表示 ---------- */
+.empty{display:none;text-align:center;color:var(--muted);padding:60px 0;font-size:.9rem}
+body.searching .section{padding-top:24px}
+body.searching .sec-head .use{display:none}
+
+/* ---------- フッター ---------- */
+footer{border-top:1px solid var(--line);background:var(--panel)}
+footer .inner{max-width:1080px;margin:0 auto;padding:32px 20px;font-size:.82rem;color:var(--muted);line-height:2}
+footer .office-f{font-family:var(--serif);color:var(--ink);font-size:.95rem;letter-spacing:.06em}
+
+/* ---------- レスポンシブ ---------- */
+@media(max-width:720px){
+  .hero{grid-template-columns:1fr;padding-top:36px}
+  .tate{writing-mode:horizontal-tb;height:auto;border-right:0;border-bottom:1px solid var(--line);padding:0 0 10px;letter-spacing:.25em}
+  .toolbar .inner{flex-direction:column;align-items:stretch;gap:8px}
+  .search{width:100%}
+  .sec-head .use{display:none}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .card,.chip{transition:none}
+  .tax-card h3::before{animation:none}
+}
+
+/* ---------- AI(ChatGPT)クイックリンク ---------- */
+.ai-quick{max-width:1080px;margin:0 auto 28px;padding:0 20px}
+.ai-quick .box{background:#fff;border:1px solid var(--line);border-left:6px solid var(--shu);border-radius:var(--radius);padding:20px 22px;display:flex;flex-wrap:wrap;align-items:center;gap:16px}
+.ai-quick-btn{flex:none;display:inline-flex;flex-direction:column;align-items:center;gap:2px;background:var(--ink);color:#fff;font-family:var(--serif);font-size:.98rem;letter-spacing:.04em;font-weight:600;text-decoration:none;border-radius:14px;padding:10px 20px;transition:background .15s}
+.ai-quick-btn .ai-quick-ext{font-family:var(--sans);font-size:.66rem;font-weight:400;color:#D9E0EC;letter-spacing:.02em}
+.ai-quick-btn:hover{background:var(--shu)}
+.ai-quick-note{flex:1;min-width:240px;font-size:.82rem;color:var(--muted);line-height:1.75}
+.ai-quick-note a{color:var(--shu);font-weight:700;text-decoration:underline}
+@media(max-width:560px){
+  .ai-quick .box{flex-direction:column;align-items:stretch}
+  .ai-quick-btn{justify-content:center}
+}
+
+/* ---------- 税務ヘルプ(FAQ式)ウィジェット ---------- */
+#tax-help-toggle{
+  position:fixed;right:20px;bottom:20px;z-index:60;
+  display:flex;align-items:center;gap:10px;
+  background:var(--ink);color:#fff;border:none;border-radius:999px;
+  padding:13px 20px 13px 16px;cursor:pointer;
+  box-shadow:0 8px 24px rgba(28,43,69,.28);
+  font-family:var(--sans);text-align:left;
+  transition:transform .15s ease, box-shadow .15s ease;
+}
+#tax-help-toggle:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(28,43,69,.34)}
+#tax-help-toggle:focus-visible{outline:3px solid var(--shu);outline-offset:2px}
+#tax-help-toggle .icon{flex:none;width:22px;height:22px;background:var(--shu);border-radius:50%}
+#tax-help-toggle .label{display:flex;flex-direction:column;line-height:1.35}
+#tax-help-toggle .label b{font-family:var(--serif);font-size:.92rem;letter-spacing:.04em}
+#tax-help-toggle .label span{font-size:.7rem;color:#D9E0EC;letter-spacing:.02em}
+
+#tax-help-panel{
+  position:fixed;right:20px;bottom:88px;z-index:60;
+  width:380px;max-width:calc(100vw - 32px);height:min(600px,calc(100vh - 140px));
+  background:var(--paper);border:1px solid var(--line);border-radius:16px;
+  box-shadow:0 20px 48px rgba(28,43,69,.28);
+  display:flex;flex-direction:column;overflow:hidden;
+  opacity:0;transform:translateY(12px) scale(.98);pointer-events:none;
+  transition:opacity .18s ease, transform .18s ease;
+}
+#tax-help-panel.open{opacity:1;transform:translateY(0) scale(1);pointer-events:auto}
+.tax-help-head{
+  flex:none;display:flex;align-items:center;justify-content:space-between;
+  background:var(--ink);color:#fff;padding:14px 16px;
+}
+.tax-help-head .title{font-family:var(--serif);font-size:1.02rem;letter-spacing:.05em;display:flex;align-items:center;gap:8px}
+.tax-help-head .title .icon{width:18px;height:18px;background:var(--shu);border-radius:50%;flex:none}
+.tax-help-head button{background:transparent;border:0;color:#fff;font-size:1.2rem;line-height:1;cursor:pointer;padding:4px 6px;border-radius:6px}
+.tax-help-head button:hover{background:rgba(255,255,255,.15)}
+
+.tax-help-search{flex:none;padding:12px 14px 0}
+.tax-help-search-box{display:flex;align-items:center;gap:8px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 14px}
+.tax-help-search-box svg{flex:none;color:var(--muted)}
+.tax-help-search-box input{flex:1;border:0;outline:0;font-family:var(--sans);font-size:.85rem;background:transparent}
+
+.tax-help-body{flex:1;overflow-y:auto;padding:14px 16px 16px;font-size:.86rem;line-height:1.7}
+.th-intro{color:var(--muted);font-size:.8rem;margin-bottom:10px}
+.th-quick{display:flex;flex-direction:column;gap:7px;margin-bottom:14px}
+.th-browse-link{
+  display:block;text-align:center;background:none;border:1px dashed var(--line);border-radius:10px;
+  padding:9px;font-size:.8rem;color:var(--ink-soft);cursor:pointer;width:100%;font-family:var(--sans);
+}
+.th-browse-link:hover{border-color:var(--ink);color:var(--ink)}
+.th-menu-btn{
+  text-align:left;background:#fff;border:1px solid var(--line);border-radius:10px;
+  padding:10px 13px;font-family:var(--sans);font-size:.84rem;color:var(--ink-soft);cursor:pointer;
+  transition:border-color .15s, color .15s;width:100%;
+}
+.th-menu-btn:hover{border-color:var(--ink);color:var(--ink)}
+.th-menu-btn:focus-visible{outline:3px solid var(--shu);outline-offset:1px}
+.th-cat-btn{
+  display:flex;justify-content:space-between;align-items:center;
+  text-align:left;background:#fff;border:1px solid var(--line);border-radius:10px;
+  padding:11px 14px;font-family:var(--sans);font-size:.85rem;color:var(--ink);cursor:pointer;width:100%;
+  margin-bottom:7px;font-weight:600;
+}
+.th-cat-btn:hover{border-color:var(--ink)}
+.th-cat-btn .count{font-weight:400;font-size:.74rem;color:var(--muted)}
+.th-back{
+  background:none;border:0;color:var(--shu);font-size:.78rem;font-weight:700;cursor:pointer;
+  padding:2px 0;margin-bottom:10px;display:inline-flex;align-items:center;gap:4px;
+}
+.th-answer h4{font-family:var(--serif);color:var(--ink);font-size:.98rem;margin-bottom:8px;font-weight:700}
+.th-answer p{color:var(--text)}
+.th-answer-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.th-answer-links a{
+  background:#fff;border:1px solid var(--ink);border-radius:999px;padding:6px 13px;
+  font-size:.76rem;font-weight:700;color:var(--ink);text-decoration:none;
+  transition:background .15s, color .15s;
+}
+.th-answer-links a:hover{background:var(--ink);color:#fff}
+.th-empty{text-align:center;color:var(--muted);font-size:.82rem;padding:18px 4px}
+.th-ai-fallback{
+  display:block;text-align:center;margin-top:12px;background:var(--ink);color:#fff;
+  border-radius:999px;padding:9px 14px;font-size:.8rem;font-weight:700;text-decoration:none;
+}
+.th-ai-fallback:hover{background:var(--shu)}
+.th-ai-fallback small{display:block;font-weight:400;font-size:.68rem;color:#D9E0EC;margin-top:1px}
+
+.tax-help-disclaimer{
+  flex:none;font-size:.7rem;color:var(--muted);line-height:1.6;
+  padding:9px 16px 12px;border-top:1px solid var(--line);background:var(--panel);
+}
+@media(max-width:480px){
+  #tax-help-toggle .label span{display:none}
+  #tax-help-panel{right:12px;left:12px;width:auto;bottom:82px}
+}
+@media(prefers-reduced-motion:reduce){
+  #tax-help-toggle{transition:none}
+  #tax-help-panel{transition:none}
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="site-head">
+  <div class="inner">
+    <div class="office">PSE総合会計 栗原正樹税理士事務所<small>KURIHARA MASAKI TAX ACCOUNTANT OFFICE</small></div>
+    <div class="head-note">顧問先のお客様向けリンク集</div>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="tate">困った場面から、探せる。</div>
+  <div>
+    <h1>税務・行政手続リンク集</h1>
+    <p class="lede">申告・納税・届出でお客様が迷いやすい公式サイトをまとめました。すべて<b>公式サイトへの直接リンク</b>です。メールやSMSに記載されたリンクからではなく、このページまたはブックマークした公式サイトからアクセスすることをおすすめします。</p>
+  </div>
+</div>
+
+<section class="tax-alert" aria-labelledby="tax-title">
+  <div class="box">
+    <p class="tax-alert-label">今月の税務チェック</p>
+    <h2 id="tax-title"></h2>
+
+    <div class="tax-cards">
+      <div class="tax-card">
+        <h3 id="final-title"></h3>
+        <p>法人税・消費税・地方税の申告、納付期限が近づいています。e-Tax、eLTAX、地方税お支払サイトをご確認ください。</p>
+      </div>
+
+      <div class="tax-card caveat">
+        <h3 id="interim-title"></h3>
+        <p>法人税・消費税の中間申告、納付が必要となる場合があります。消費税の中間申告回数は直前の消費税額により異なりますので、e-Tax・eLTAXのメッセージボックスでご確認ください。</p>
+      </div>
+
+      <div class="tax-card" id="special-withholding" style="display:none;">
+        <h3>納期の特例を利用している事業者の方</h3>
+        <p id="special-withholding-text"></p>
+      </div>
+    </div>
+
+    <div class="tax-links">
+      <a href="https://www.e-tax.nta.go.jp/" target="_blank" rel="noopener">e-Tax</a>
+      <a href="https://www.eltax.lta.go.jp/" target="_blank" rel="noopener">eLTAX</a>
+      <a href="https://www.payment.eltax.lta.go.jp/pbuser" target="_blank" rel="noopener">地方税お支払サイト</a>
+    </div>
+
+    <p class="tax-note">期限が土日祝日にあたる場合は、原則として翌開庁日となります。個別の事業年度・届出状況により取扱いが異なる場合がありますので、詳細は当事務所または公式サイトでご確認ください。</p>
+  </div>
+</section>
+
+<div class="caution">
+  <div class="box">
+    <strong>フィッシング詐欺にご注意ください。</strong>
+    国税庁・e-Tax・地方税をかたる偽メール・偽SMSが多発しています。「税務署からのお知らせ」メールが届いた場合も、メール本文のリンクは開かず、e-Tax公式サイトにログインして「お知らせ・受信通知」から内容をご確認ください。
+  </div>
+</div>
+
+<div class="ai-quick">
+  <div class="box">
+    <a class="ai-quick-btn" href="https://chatgpt.com/" target="_blank" rel="noopener">AI(ChatGPT)に聞いてみる<span class="ai-quick-ext">別ページに移動します</span></a>
+    <p class="ai-quick-note">回答はAI(ChatGPT)によるものであり、当事務所が内容を保証・責任を負うものではありません。マイナンバー・口座情報・決算書などの個人情報・機密情報は入力しないようご注意ください。ChatGPT以外のAIツールは<a href="#ai">このページ下部の「業務に役立つ無料AIツール」</a>にまとめています。</p>
+  </div>
+</div>
+
+<nav class="toolbar" aria-label="カテゴリ">
+  <div class="inner">
+    <label class="search">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+      <input id="q" type="search" placeholder="例:支払い・カード払い・決算 など" aria-label="リンクを検索(表記ゆれに対応)">
+    </label>
+    <div class="chips">
+      <a class="chip" href="#kokuzei">国税</a>
+      <a class="chip" href="#chihouzei">地方税</a>
+      <a class="chip" href="#nouzei">納税方法</a>
+      <a class="chip" href="#invoice">インボイス・番号</a>
+      <a class="chip" href="#nencho">給与・年末調整</a>
+      <a class="chip" href="#shaho">社会保険・労働保険</a>
+      <a class="chip" href="#kaisha">会社・登記・補助金</a>
+      <a class="chip" href="#kojin">個人向け</a>
+      <a class="chip ai" href="#ai">無料AIツール</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+<!-- 1 国税 -->
+<section class="section" id="kokuzei">
+  <div class="sec-head"><span class="mon">一</span><h2>国税の手続</h2><span class="use">申告する・調べる</span></div>
+  <div class="grid">
+    <a class="card" href="https://www.e-tax.nta.go.jp/" target="_blank" rel="noopener" data-tags="国税 電子申告 電子納税 メッセージボックス イータックス etax">
+      <h3>e-Tax(国税電子申告・納税システム)<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>国税の電子申告・電子納税・各種届出・メッセージボックスの確認に使用します。</p>
+      <div class="memo">税務署からのお知らせメールが届いた場合も、原則としてこの公式サイトからログインしてご確認ください。</div>
+      <span class="domain">e-tax.nta.go.jp</span>
+    </a>
+    <a class="card" href="https://www.nta.go.jp/" target="_blank" rel="noopener" data-tags="国税庁 パンフレット 通達 質疑応答">
+      <h3>国税庁<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>税目ごとの案内、様式のダウンロード、パンフレット・最新情報の確認に。</p>
+      <span class="domain">nta.go.jp</span>
+    </a>
+    <a class="card" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm" target="_blank" rel="noopener" data-tags="タックスアンサー よくある質問 調べる">
+      <h3>タックスアンサー<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>よくある税の質問への国税庁の公式回答集。まず調べたいときの入口です。</p>
+      <span class="domain">nta.go.jp</span>
+    </a>
+    <a class="card" href="https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/kakushin-sakusei/" target="_blank" rel="noopener" data-tags="確定申告 作成コーナー 所得税 消費税 贈与税 個人">
+      <h3>確定申告書等作成コーナー<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>個人の所得税・消費税・贈与税の申告書を、画面の案内に沿って作成できます。</p>
+      <span class="domain">nta.go.jp</span>
+    </a>
+  </div>
+</section>
+
+<!-- 2 地方税 -->
+<section class="section" id="chihouzei">
+  <div class="sec-head"><span class="mon">二</span><h2>地方税の手続</h2><span class="use">申告する・納める</span></div>
+  <div class="grid">
+    <a class="card" href="https://www.eltax.lta.go.jp/" target="_blank" rel="noopener" data-tags="地方税 エルタックス 法人住民税 事業税 償却資産 給与支払報告書 特別徴収 eltax">
+      <h3>eLTAX(地方税ポータルシステム)<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>法人住民税・事業税・償却資産税の申告、給与支払報告書の提出、特別徴収の手続などに使用します。</p>
+      <span class="domain">eltax.lta.go.jp</span>
+    </a>
+    <a class="card" href="https://www.payment.eltax.lta.go.jp/pbuser" target="_blank" rel="noopener" data-tags="地方税 納付 支払い eLQR eL番号 納付書">
+      <h3>地方税お支払サイト<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>eL-QR・eL番号が印字された納付書の支払いに使用します。住民税・固定資産税などの納付書もこちらから。</p>
+      <span class="domain">payment.eltax.lta.go.jp</span>
+    </a>
+  </div>
+</section>
+
+<!-- 3 納税方法 -->
+<section class="section" id="nouzei">
+  <div class="sec-head"><span class="mon">三</span><h2>納税方法</h2><span class="use">どこから払うか迷ったら</span></div>
+  <div class="grid">
+    <a class="card" href="https://www.nta.go.jp/taxes/nozei/nofu/index.htm" target="_blank" rel="noopener" data-tags="納付 納税 ダイレクト納付 一覧 国税">
+      <h3>国税の納付手続(一覧)<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>ダイレクト納付をはじめ、国税の各納付方法の入口となる国税庁の案内ページです。</p>
+      <span class="domain">nta.go.jp</span>
+    </a>
+    <a class="card" href="https://www.nta.go.jp/taxes/nozei/nofu/24200042/noufu_denshi.htm" target="_blank" rel="noopener" data-tags="インターネットバンキング ATM ペイジー 電子納税">
+      <h3>インターネットバンキング等からの納付<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>インターネットバンキングやATM(ペイジー)による国税の納付手続の案内です。</p>
+      <span class="domain">nta.go.jp</span>
+    </a>
+    <a class="card" href="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/nofu-shomei/nofu/credit_nofu/index.htm" target="_blank" rel="noopener" data-tags="クレジットカード 納付 カード払い">
+      <h3>クレジットカード納付の手続<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>国税のクレジットカード納付の案内です。</p>
+      <div class="memo">「国税クレジットカードお支払サイト」は必ずこの国税庁の公式ページ経由でアクセスしてください。類似の偽サイトにご注意を。</div>
+      <span class="domain">nta.go.jp</span>
+    </a>
+    <a class="card" href="https://www.nta.go.jp/taxes/nozei/nofu/24100020.htm" target="_blank" rel="noopener" data-tags="振替納税 口座振替 個人 所得税 消費税">
+      <h3>振替納税(個人)<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>個人の所得税・消費税を口座振替で納付する「振替納税」に関する案内です。</p>
+      <span class="domain">nta.go.jp</span>
+    </a>
+    <a class="card" href="https://www.payment.eltax.lta.go.jp/pbuser" target="_blank" rel="noopener" data-tags="地方税 納付 支払い">
+      <h3>地方税の納付(地方税お支払サイト)<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>地方税の納付書(eL-QR・eL番号付き)はこちらから支払えます。</p>
+      <span class="domain">payment.eltax.lta.go.jp</span>
+    </a>
+  </div>
+</section>
+
+<!-- 4 インボイス・番号確認 -->
+<section class="section" id="invoice">
+  <div class="sec-head"><span class="mon">四</span><h2>インボイス・番号確認</h2><span class="use">取引先を確認する</span></div>
+  <div class="grid">
+    <a class="card" href="https://www.invoice-kohyo.nta.go.jp/" target="_blank" rel="noopener" data-tags="インボイス 適格請求書 登録番号 T番号 確認">
+      <h3>適格請求書発行事業者公表サイト<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>取引先のインボイス登録番号(T+13桁)が有効かどうかを確認できます。</p>
+      <span class="domain">invoice-kohyo.nta.go.jp</span>
+    </a>
+    <a class="card" href="https://www.houjin-bangou.nta.go.jp/" target="_blank" rel="noopener" data-tags="法人番号 13桁 会社 基本情報 確認">
+      <h3>法人番号公表サイト<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>取引先の法人番号・商号・本店所在地などの基本情報を確認できます。</p>
+      <span class="domain">houjin-bangou.nta.go.jp</span>
+    </a>
+  </div>
+</section>
+
+<!-- 5 給与・年末調整 -->
+<section class="section" id="nencho">
+  <div class="sec-head"><span class="mon">五</span><h2>給与・年末調整</h2><span class="use">従業員の手続</span></div>
+  <div class="grid">
+    <a class="card" href="https://www.nta.go.jp/users/gensen/nencho/index.htm" target="_blank" rel="noopener" data-tags="年末調整 様式 扶養控除 保険料控除 申告書">
+      <h3>年末調整がよくわかるページ<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>年末調整の各種様式(扶養控除等申告書など)、パンフレット、解説動画がまとまっています。毎年、最新年分に更新されます。</p>
+      <span class="domain">nta.go.jp</span>
+    </a>
+    <a class="card" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/gensen.htm" target="_blank" rel="noopener" data-tags="源泉所得税 源泉徴収 タックスアンサー">
+      <h3>源泉所得税(タックスアンサー)<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>給与・報酬の源泉徴収に関するよくある質問と公式回答の一覧です。</p>
+      <span class="domain">nta.go.jp</span>
+    </a>
+  </div>
+</section>
+
+<!-- 6 社会保険・労働保険 -->
+<section class="section" id="shaho">
+  <div class="sec-head"><span class="mon">六</span><h2>社会保険・労働保険</h2><span class="use">健康保険・年金・雇用</span></div>
+  <div class="grid">
+    <a class="card" href="https://www.nenkin.go.jp/service/riyoushabetsu/jigyonushi/index.html" target="_blank" rel="noopener" data-tags="社会保険 厚生年金 健康保険 算定基礎届 事業主 年金機構">
+      <h3>日本年金機構「事業主の方」<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>健康保険・厚生年金の資格取得・喪失、算定基礎届など、事業主向け手続の案内です。</p>
+      <span class="domain">nenkin.go.jp</span>
+    </a>
+    <a class="card" href="https://www.nenkin.go.jp/service/kounen/kyokaikenpo/index.html" target="_blank" rel="noopener" data-tags="協会けんぽ 健康保険 手続 届出">
+      <h3>健康保険(協会けんぽ)の事務と手続き<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>協会けんぽに関する健康保険関係の届出・手続の確認に。</p>
+      <span class="domain">nenkin.go.jp</span>
+    </a>
+    <a class="card" href="https://shinsei.e-gov.go.jp/" target="_blank" rel="noopener" data-tags="労働保険 雇用保険 電子申請 e-Gov 36協定 就業規則">
+      <h3>e-Gov電子申請<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>労働保険・雇用保険をはじめ、各府省への申請・届出を電子申請できます。</p>
+      <span class="domain">shinsei.e-gov.go.jp</span>
+    </a>
+    <a class="card" href="https://www.hellowork.mhlw.go.jp/enterprise/ent_top.html" target="_blank" rel="noopener" data-tags="ハローワーク 求人 雇用保険 助成金 採用">
+      <h3>ハローワークインターネットサービス<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>求人者マイページでの求人申込み、雇用保険・助成金の案内です。</p>
+      <span class="domain">hellowork.mhlw.go.jp</span>
+    </a>
+  </div>
+</section>
+
+<!-- 7 会社・登記・補助金 -->
+<section class="section" id="kaisha">
+  <div class="sec-head"><span class="mon">七</span><h2>会社・登記・補助金</h2><span class="use">設立・変更・支援制度</span></div>
+  <div class="grid">
+    <a class="card" href="https://www.gbiz-id.go.jp/" target="_blank" rel="noopener" data-tags="GビズID gBizID 事業者 共通認証 ログイン 補助金 社会保険">
+      <h3>GビズID<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>補助金申請や社会保険手続など、複数の行政サービスに共通で使える事業者向けIDです。1つ取得しておくと便利です。</p>
+      <span class="domain">gbiz-id.go.jp</span>
+    </a>
+    <a class="card" href="https://www.jgrants-portal.go.jp/" target="_blank" rel="noopener" data-tags="補助金 Jグランツ 申請 電子申請">
+      <h3>Jグランツ<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>国・自治体の補助金をオンラインで検索・申請できます(GビズIDが必要です)。</p>
+      <span class="domain">jgrants-portal.go.jp</span>
+    </a>
+    <a class="card" href="https://www.chusho.meti.go.jp/" target="_blank" rel="noopener" data-tags="中小企業庁 補助金 制度 支援">
+      <h3>中小企業庁<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>補助金・制度改正など、中小企業向け支援策の確認に。</p>
+      <span class="domain">chusho.meti.go.jp</span>
+    </a>
+    <a class="card" href="https://www.touki-kyoutaku-online.moj.go.jp/" target="_blank" rel="noopener" data-tags="登記 供託 商業登記 不動産登記 電子公証 役員変更 本店移転">
+      <h3>登記・供託オンライン申請システム<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>商業登記・不動産登記・供託・電子公証のオンライン申請、登記事項証明書の請求に使用します。</p>
+      <span class="domain">touki-kyoutaku-online.moj.go.jp</span>
+    </a>
+    <a class="card" href="https://laws.e-gov.go.jp/" target="_blank" rel="noopener" data-tags="法令 法律 政令 省令 検索 e-Gov">
+      <h3>e-Gov法令検索<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>法律・政令・省令の条文を確認できる公式データベースです。</p>
+      <span class="domain">laws.e-gov.go.jp</span>
+    </a>
+  </div>
+</section>
+
+<!-- 8 個人向け -->
+<section class="section" id="kojin">
+  <div class="sec-head"><span class="mon">八</span><h2>個人向け手続</h2><span class="use">確定申告・行政サービス</span></div>
+  <div class="grid">
+    <a class="card" href="https://services.digital.go.jp/mynaportal/" target="_blank" rel="noopener" data-tags="マイナポータル マイナンバーカード 本人情報 医療費通知 個人">
+      <h3>マイナポータル<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>本人情報の確認、医療費通知情報の取得(確定申告に連携可)、各種行政手続に使用します。</p>
+      <span class="domain">services.digital.go.jp</span>
+    </a>
+    <a class="card" href="https://app.oss.myna.go.jp/Application/resources/about/index.html" target="_blank" rel="noopener" data-tags="ぴったりサービス 自治体 申請 届出 検索 子育て 引越し">
+      <h3>ぴったりサービス<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>お住まいの自治体の申請・届出を検索し、オンライン申請できます。</p>
+      <span class="domain">app.oss.myna.go.jp</span>
+    </a>
+    <a class="card" href="https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/kakushin-sakusei/" target="_blank" rel="noopener" data-tags="確定申告 医療費控除 ふるさと納税 住宅ローン控除 個人">
+      <h3>確定申告書等作成コーナー<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>医療費控除・ふるさと納税・住宅ローン控除などの確定申告書を、画面の案内に沿って作成できます。</p>
+      <span class="domain">nta.go.jp</span>
+    </a>
+  </div>
+</section>
+
+<!-- 9 無料AIツール -->
+<section class="section" id="ai">
+  <div class="sec-head"><span class="mon">附</span><h2>業務に役立つ無料AIツール</h2><span class="use">文章作成・調べもの・要約</span></div>
+
+  <div class="ai-caution">
+    <h3>ご利用前に必ずお読みください</h3>
+    <p>AIサービスに、<b>マイナンバー、預金口座、給与明細、決算書、申告書、顧客名簿、契約書などの機密情報をそのまま入力しないでください。</b><br>
+    AIの回答は誤りを含む場合があります。税務判断・法的判断・申告内容の確認は、必ず当事務所または公的機関の情報でご確認ください。<br>
+    以下はいずれも無料で使えます。無料版は有料版に比べて性能が抑えられていたり、利用回数などに制限がありますが、内容を試してみる分には十分な機能があります。</p>
+  </div>
+
+  <div class="grid">
+    <a class="card" href="https://chatgpt.com/" target="_blank" rel="noopener" data-tags="ChatGPT AI 文章 要約 相談 アイデア">
+      <span class="tag">はじめての方に</span>
+      <h3>ChatGPT<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>文章作成、要約、相談、アイデア出しに使える汎用AI。</p>
+      <div class="memo">特定のサービスに依存しない、一番汎用的な入口です。どのアカウントを使っているかにかかわらず選べます。</div>
+      <span class="domain">chatgpt.com</span>
+    </a>
+    <a class="card" href="https://gemini.google.com/" target="_blank" rel="noopener" data-tags="Gemini Google AI 検索 文章">
+      <span class="tag">はじめての方に</span>
+      <h3>Google Gemini<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>GoogleのAI。検索と組み合わせた調べもの、文章作成、日常的な相談に使いやすいです。</p>
+      <div class="memo">Gmailなど、普段Googleをお使いの方はログインもそのまま、Googleのサービスとの連携もしやすいです。</div>
+      <span class="domain">gemini.google.com</span>
+    </a>
+    <a class="card" href="https://copilot.microsoft.com/" target="_blank" rel="noopener" data-tags="Copilot Microsoft AI Windows">
+      <span class="tag">はじめての方に</span>
+      <h3>Microsoft Copilot<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>MicrosoftのAIチャット。WindowsやMicrosoft 365をお使いの方に馴染みやすいです。</p>
+      <div class="memo">WindowsやOutlook、Word・Excelをお使いの方は、普段の環境にそのまま溶け込みます。</div>
+      <span class="domain">copilot.microsoft.com</span>
+    </a>
+    <a class="card" href="https://www.perplexity.ai/" target="_blank" rel="noopener" data-tags="Perplexity AI検索 調べもの 出典 根拠">
+      <span class="tag">調べものに</span>
+      <h3>Perplexity<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>AI検索エンジン。回答の根拠(出典)を確認しながら調べものをしたい方向けです。</p>
+      <span class="domain">perplexity.ai</span>
+    </a>
+    <a class="card" href="https://claude.ai/" target="_blank" rel="noopener" data-tags="Claude AI 文章 要約 長文 壁打ち">
+      <span class="tag">文章・資料整理に</span>
+      <h3>Claude<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>長めの文章の整理・要約、文案の壁打ちに向くAI。無料プランがあります。</p>
+      <span class="domain">claude.ai</span>
+    </a>
+    <a class="card" href="https://notebooklm.google.com/" target="_blank" rel="noopener" data-tags="NotebookLM PDF 資料 要約 整理 Google">
+      <span class="tag">PDF・資料の要約に</span>
+      <h3>NotebookLM<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>PDF・資料・メモを読み込ませて、その内容に基づいて要約・整理できるGoogleのツールです。</p>
+      <span class="domain">notebooklm.google.com</span>
+    </a>
+    <a class="card" href="https://www.deepl.com/ja/write" target="_blank" rel="noopener" data-tags="DeepL 翻訳 英文 メール 文章改善 Write">
+      <span class="tag">翻訳・文章の推敲に</span>
+      <h3>DeepL Write / DeepL翻訳<svg class="ext" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></h3>
+      <p>翻訳、英文メール、日本語文章の言い回しの改善に。無料で試せます。</p>
+      <span class="domain">deepl.com</span>
+    </a>
+  </div>
+</section>
+
+<p class="empty" id="empty">該当するリンクが見つかりませんでした。別のキーワードでお試しください。</p>
+
+</main>
+
+<footer>
+  <div class="inner">
+    <div class="office-f">PSE総合会計 栗原正樹税理士事務所</div>
+    <p>本ページに掲載しているリンクは、いずれも各機関・各社の公式サイトです。リンク先の内容・URLは変更される場合があります。お手続きの際は、必ず最新の公式情報をご確認ください。<br>
+    ご不明な点は当事務所までお気軽にお問い合わせください。</p>
+  </div>
+</footer>
+
+<!-- 税務ヘルプ(選択式・登録不要・FAQ約110問) -->
+<button id="tax-help-toggle" aria-haspopup="dialog" aria-expanded="false" aria-controls="tax-help-panel">
+  <span class="icon" aria-hidden="true"></span>
+  <span class="label"><b>税務ヘルプ</b><span>今月の申告・納付を確認する</span></span>
+</button>
+
+<div id="tax-help-panel" role="dialog" aria-modal="false" aria-label="税務ヘルプ">
+  <div class="tax-help-head">
+    <span class="title"><span class="icon" aria-hidden="true"></span>税務ヘルプ</span>
+    <button id="tax-help-close" aria-label="税務ヘルプを閉じる">×</button>
+  </div>
+  <div class="tax-help-search">
+    <div class="tax-help-search-box">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+      <input id="th-search" type="search" placeholder="例:源泉・中間申告・退職・インボイス" aria-label="ヘルプ内を検索">
+    </div>
+  </div>
+  <div class="tax-help-body" id="tax-help-body"></div>
+  <p class="tax-help-disclaimer">※このヘルプは一般的な案内です。実際の取扱いは、決算月・届出状況・税額・自治体・個別事情により異なる場合があります。個別の税務判断が必要な場合は、当事務所までご相談ください。</p>
+</div>
+
+<script>
+(function(){
+  const q = document.getElementById('q');
+  const cards = Array.from(document.querySelectorAll('.card'));
+  const sections = Array.from(document.querySelectorAll('.section'));
+  const empty = document.getElementById('empty');
+
+  // 表記ゆれ・同義語グループ:同じグループ内の語はどれで検索してもヒットする
+  const SYN = [
+    ['納付','支払い','支払','払う','払い込み','振込','支払う'],
+    ['申告','届出','提出','手続き','手続'],
+    ['決算','年度末','事業年度','決算月'],
+    ['中間申告','中間','予定申告','仮決算'],
+    ['確定申告','本申告','年度末申告'],
+    ['源泉所得税','源泉','源泉徴収'],
+    ['納期の特例','特例','半年納付','半年分'],
+    ['登記','法人登記','商業登記','役員変更','本店移転'],
+    ['補助金','助成金','支援金','給付金'],
+    ['翻訳','英訳','英文','和訳'],
+    ['要約','まとめ','要点','サマリー'],
+    ['検索','調べる','リサーチ','しらべる'],
+    ['社会保険','健康保険','厚生年金','協会けんぽ'],
+    ['雇用保険','労働保険','ハローワーク'],
+    ['マイナンバー','マイナ','マイナポータル'],
+    ['請求書','インボイス','適格請求書','登録番号'],
+    ['法人番号','会社番号','13桁'],
+    ['年末調整','扶養控除','年調'],
+    ['地方税','住民税','事業税','償却資産税'],
+    ['国税','税務署'],
+    ['クレジットカード','カード払い','カード納付'],
+    ['振替納税','口座振替','自動引き落とし'],
+  ];
+
+  function norm(s){
+    return (s||'').toLowerCase()
+      .replace(/[ァ-ン]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0x60)) // カタカナ→ひらがな
+      .replace(/[Ａ-Ｚａ-ｚ０-９]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0xFEE0)) // 全角→半角
+      .replace(/\s+/g,'');
+  }
+
+  const SYN_NORM = SYN.map(group => group.map(norm));
+
+  function matches(kw, hay){
+    if(!kw) return true;
+    if(hay.includes(kw)) return true;
+    // 同義語グループ:入力語がグループ内の語の一部/全部に一致すれば、
+    // そのグループの他の語がヒット対象に含まれているかも見る
+    for(const group of SYN_NORM){
+      const kwHitsGroup = group.some(term => term.includes(kw) || kw.includes(term));
+      if(kwHitsGroup){
+        const hayHasGroupTerm = group.some(term => hay.includes(term));
+        if(hayHasGroupTerm) return true;
+      }
+    }
+    return false;
+  }
+
+  function filter(){
+    const kw = norm(q.value);
+    document.body.classList.toggle('searching', kw.length > 0);
+    let shown = 0;
+    cards.forEach(c => {
+      const hay = norm(c.textContent + ' ' + (c.dataset.tags||''));
+      const hit = matches(kw, hay);
+      c.classList.toggle('hidden', !hit);
+      if(hit) shown++;
+    });
+    sections.forEach(s => {
+      const visible = s.querySelectorAll('.card:not(.hidden)').length > 0;
+      s.style.display = visible ? '' : 'none';
+    });
+    empty.style.display = shown === 0 ? 'block' : 'none';
+  }
+
+  q.addEventListener('input', filter);
+})();
+
+(function(){
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = today.getMonth() + 1;
+
+  // 確定申告(2ヶ月後が今月)= 決算月は今月-2
+  const finalMonth = ((month + 9) % 12) + 1;
+  // 中間申告(事業年度開始+6ヶ月+2ヶ月=8ヶ月後が今月)= 決算月は今月+4 → 開始月は決算月+1
+  const interimMonth = ((month + 3) % 12) + 1;
+
+  document.getElementById('tax-title').textContent = `${year}年${month}月の主な確認事項`;
+  document.getElementById('final-title').textContent = `${finalMonth}月決算法人の方(確定申告・納付)`;
+  document.getElementById('interim-title').textContent = `${interimMonth}月決算法人の方(中間申告・納付)`;
+
+  if(month === 7 || month === 1){
+    const box = document.getElementById('special-withholding');
+    const text = document.getElementById('special-withholding-text');
+    box.style.display = 'block';
+    text.textContent = month === 7
+      ? '1月〜6月分の源泉所得税の納付期限は、原則として7月10日です。'
+      : '7月〜12月分の源泉所得税の納付期限は、原則として1月20日です。';
+  }
+})();
+
+(function(){
+  const toggle = document.getElementById('tax-help-toggle');
+  const panel = document.getElementById('tax-help-panel');
+  const closeBtn = document.getElementById('tax-help-close');
+  const body = document.getElementById('tax-help-body');
+  const searchInput = document.getElementById('th-search');
+
+  const today = new Date();
+  const month = today.getMonth() + 1;
+  const finalMonth = ((month + 9) % 12) + 1;
+  const interimMonth = ((month + 3) % 12) + 1;
+  const CTX = { month, finalMonth, interimMonth };
+
+  const LINKS = {
+    etax:{label:'e-Tax', href:'https://www.e-tax.nta.go.jp/'},
+    eltax:{label:'eLTAX', href:'https://www.eltax.lta.go.jp/'},
+    chihouzei:{label:'地方税お支払サイト', href:'https://www.payment.eltax.lta.go.jp/pbuser'}
+  };
+
+  const CATS = [
+    {id:'today', name:'今月の税務チェック'},
+    {id:'hojin', name:'法人税・消費税'},
+    {id:'etax', name:'e-Tax・eLTAX・納付'},
+    {id:'gensen', name:'源泉所得税・年末調整'},
+    {id:'invoice', name:'インボイス・電子帳簿保存'},
+    {id:'shaho', name:'給与・社会保険'},
+    {id:'koyo', name:'雇用保険・労働保険'},
+    {id:'kojin', name:'個人事業主・確定申告'},
+    {id:'ai', name:'AI・情報管理'}
+  ];
+
+  const FAQ = [
+    {id:1, cat:'today', q:'今月、何を確認すればよいですか？', a:'決算月、中間申告月、源泉所得税の納付月に該当するかを確認してください。e-Tax、eLTAX、地方税お支払サイトの通知も確認してください。', links:['etax','eltax','chihouzei']},
+    {id:2, cat:'today', q:'今月の法人税・消費税の申告対象はどの会社ですか？', a:'原則として、今月の2か月前に決算を迎えた法人が対象です。たとえば7月なら5月決算法人です。', links:['etax','eltax']},
+    {id:3, cat:'today', q:'今月の中間申告対象はどの会社ですか？', a:'原則として、今月の8か月前に決算を迎えた法人が対象になる場合があります。たとえば7月なら11月決算法人です。', links:['etax','eltax']},
+    {id:4, cat:'today', q:'中間申告は必ず必要ですか？', a:'法人税・消費税ともに、前期の税額や事業年度により異なります。e-Tax・eLTAXのメッセージボックスをご確認ください。', links:['etax','eltax']},
+    {id:5, cat:'today', q:'申告期限が土日祝日の場合はどうなりますか？', a:'一般に翌開庁日となる場合があります。ただし、手続や税目により異なる場合があるため、公式情報または当事務所へご確認ください。'},
+    {id:6, cat:'today', q:'納付期限だけ先に知りたいです。', a:'法人税・消費税は、原則として申告期限と同じ日が納付期限です。納付方法により手続時間が異なるため、早めに確認してください。'},
+    {id:7, cat:'today', q:'納付書が届いていません。どうすればよいですか？', a:'電子申告の場合、紙の納付書が届かないことがあります。e-Tax、eLTAX、地方税お支払サイトをご確認ください。', links:['etax','eltax','chihouzei']},
+    {id:8, cat:'today', q:'税務署からメールが来ました。', a:'メール本文のリンクを安易に開かず、公式サイトからe-Taxへログインしてメッセージボックスをご確認ください。', links:['etax']},
+    {id:9, cat:'today', q:'地方税の通知はどこで見ますか？', a:'eLTAXのメッセージボックス、PCdesk、または自治体からの通知をご確認ください。', links:['eltax']},
+    {id:10, cat:'today', q:'今月の税務チェックをまとめると？', a:'決算法人、中間申告、源泉所得税、住民税特別徴収、社会保険・労働保険の期限を確認してください。'},
+
+    {id:11, cat:'hojin', q:'法人税の申告期限はいつですか？', a:'原則として、事業年度終了の日の翌日から2か月以内です。'},
+    {id:12, cat:'hojin', q:'消費税の申告期限はいつですか？', a:'法人の場合、原則として課税期間終了の日の翌日から2か月以内です。'},
+    {id:13, cat:'hojin', q:'赤字でも申告は必要ですか？', a:'原則として、赤字でも法人税・地方税の申告は必要です。均等割などが発生する場合があります。'},
+    {id:14, cat:'hojin', q:'法人税がゼロなら納付は不要ですか？', a:'法人税がゼロでも、法人住民税の均等割などが発生する場合があります。'},
+    {id:15, cat:'hojin', q:'消費税の納税額はいつ分かりますか？', a:'売上、仕入、経費、インボイスの確認が完了した後に概算または確定します。'},
+    {id:16, cat:'hojin', q:'消費税の中間申告は誰が対象ですか？', a:'直前の課税期間の確定消費税額が一定額を超える場合に対象となります。'},
+    {id:17, cat:'hojin', q:'消費税の中間申告は何回ありますか？', a:'前期の消費税額により、年1回・年3回・年11回となる場合があります。'},
+    {id:18, cat:'hojin', q:'法人税の中間申告とは何ですか？', a:'前期実績などに基づき、事業年度の途中で税額を申告・納付する制度です。'},
+    {id:19, cat:'hojin', q:'中間申告書を出さないとどうなりますか？', a:'税目によっては、予定申告があったものとみなされ、納付義務が発生する場合があります。'},
+    {id:20, cat:'hojin', q:'決算前に準備する資料は何ですか？', a:'通帳、売上資料、請求書、領収書、カード明細、借入金残高、在庫、固定資産資料などです。'},
+    {id:21, cat:'hojin', q:'在庫は確認が必要ですか？', a:'商品・材料・仕掛品がある場合、決算日時点の在庫確認が必要です。'},
+    {id:22, cat:'hojin', q:'借入金の残高証明は必要ですか？', a:'決算時には、金融機関の返済予定表や残高資料を確認します。'},
+    {id:23, cat:'hojin', q:'役員報酬を途中で変えてよいですか？', a:'税務上の制限があるため、変更前に必ず当事務所へご相談ください。'},
+    {id:24, cat:'hojin', q:'決算賞与を出したいです。', a:'損金算入には要件があります。支給時期、通知、未払計上などを事前に確認してください。'},
+    {id:25, cat:'hojin', q:'消費税の簡易課税を選べますか？', a:'基準期間の課税売上高や届出状況により異なります。選択には期限があるため、早めにご相談ください。'},
+
+    {id:26, cat:'etax', q:'e-Taxとは何ですか？', a:'国税の電子申告、電子納税、申請届出、メッセージ確認を行うシステムです。', links:['etax']},
+    {id:27, cat:'etax', q:'eLTAXとは何ですか？', a:'地方税の申告、申請、届出、納税を行う地方税ポータルシステムです。', links:['eltax']},
+    {id:28, cat:'etax', q:'e-Taxで何を確認すればよいですか？', a:'申告受付、納付情報、税務署からのお知らせ、還付通知などを確認します。', links:['etax']},
+    {id:29, cat:'etax', q:'eLTAXで何を確認すればよいですか？', a:'法人住民税・事業税、特別徴収、給与支払報告書、地方税の納付情報などを確認します。', links:['eltax']},
+    {id:30, cat:'etax', q:'税務署からのメールは本物ですか？', a:'メールだけで判断せず、公式サイトからe-Taxへログインして確認してください。', links:['etax']},
+    {id:31, cat:'etax', q:'メッセージボックスを見るには何が必要ですか？', a:'利用者識別番号、暗証番号、電子証明書、マイナンバーカード等が必要になる場合があります。'},
+    {id:32, cat:'etax', q:'国税はどこから納付できますか？', a:'e-Tax、ダイレクト納付、インターネットバンキング、クレジットカード納付などがあります。', links:['etax']},
+    {id:33, cat:'etax', q:'地方税はどこから納付できますか？', a:'eLTAXの共通納税、地方税お支払サイト、金融機関等で納付できる場合があります。', links:['eltax','chihouzei']},
+    {id:34, cat:'etax', q:'クレジットカード納付はできますか？', a:'国税・地方税ともに対応している場合があります。決済手数料や利用できる税目を確認してください。'},
+    {id:35, cat:'etax', q:'ダイレクト納付とは何ですか？', a:'事前登録した預貯金口座から、国税を電子納付する方法です。', links:['etax']},
+    {id:36, cat:'etax', q:'電子納税では領収書は出ますか？', a:'紙の領収証書が発行されない場合があります。納付履歴や受付結果を保存してください。'},
+    {id:37, cat:'etax', q:'納付が遅れそうです。', a:'延滞税等が発生する場合があります。早めに当事務所または税務署へご相談ください。'},
+    {id:38, cat:'etax', q:'納付書を紛失しました。', a:'e-Tax、eLTAX、税務署、自治体、地方税お支払サイトで確認できる場合があります。', links:['etax','eltax','chihouzei']},
+    {id:39, cat:'etax', q:'地方税お支払サイトとは何ですか？', a:'eL-QRやeL番号が付いた地方税の納付書を使って、地方税を支払うためのサイトです。', links:['chihouzei']},
+    {id:40, cat:'etax', q:'e-TaxとeLTAXは同じですか？', a:'違います。e-Taxは国税、eLTAXは地方税の手続に使います。', links:['etax','eltax']},
+
+    {id:41, cat:'gensen', q:'源泉所得税はいつ納付しますか？', a:'原則として、給与や報酬を支払った月の翌月10日までです。'},
+    {id:42, cat:'gensen', q:'納期の特例とは何ですか？', a:'一定の小規模事業者が、源泉所得税を年2回にまとめて納付できる制度です。'},
+    {id:43, cat:'gensen', q:'納期の特例の納付期限はいつですか？', a:'1月〜6月分は7月10日、7月〜12月分は翌年1月20日です。'},
+    {id:44, cat:'gensen', q:'納期の特例を使えるのは誰ですか？', a:'給与の支給人員が常時10人未満の源泉徴収義務者が対象です。'},
+    {id:45, cat:'gensen', q:'士業報酬の源泉所得税も納期の特例に含まれますか？', a:'税理士、弁護士、司法書士など一定の報酬は対象になる場合があります。'},
+    {id:46, cat:'gensen', q:'源泉税を納め忘れた場合は？', a:'不納付加算税や延滞税が発生する場合があります。早めにご相談ください。'},
+    {id:47, cat:'gensen', q:'給与の源泉税はどの表で見ますか？', a:'給与所得の源泉徴収税額表を使用します。年分により内容が変わる場合があります。'},
+    {id:48, cat:'gensen', q:'年末調整とは何ですか？', a:'給与から天引きした源泉所得税と、年間の正しい税額との差額を精算する手続です。'},
+    {id:49, cat:'gensen', q:'年末調整で従業員から集める書類は？', a:'扶養控除等申告書、基礎控除・配偶者控除等申告書、保険料控除申告書、住宅ローン控除関係書類などです。'},
+    {id:50, cat:'gensen', q:'退職者も年末調整しますか？', a:'退職時期や再就職状況により異なります。退職者には源泉徴収票の発行が必要です。'},
+    {id:51, cat:'gensen', q:'扶養の人数が変わった場合は？', a:'扶養控除等申告書の内容を確認し、給与計算や年末調整に反映します。'},
+    {id:52, cat:'gensen', q:'生命保険料控除証明書をなくした場合は？', a:'保険会社に再発行を依頼してください。電子データで取得できる場合もあります。'},
+    {id:53, cat:'gensen', q:'住宅ローン控除は年末調整でできますか？', a:'2年目以降は年末調整で対応できる場合があります。初年度は確定申告が必要です。'},
+    {id:54, cat:'gensen', q:'年末調整後に扶養が変わりました。', a:'翌年1月末までであれば再年末調整を行う場合があります。状況を確認してください。'},
+    {id:55, cat:'gensen', q:'1月に提出する書類は何ですか？', a:'法定調書、給与支払報告書、償却資産申告などがあります。'},
+
+    {id:56, cat:'invoice', q:'インボイス制度とは何ですか？', a:'消費税の仕入税額控除を受けるため、一定事項を記載した適格請求書の保存が必要になる制度です。'},
+    {id:57, cat:'invoice', q:'取引先のインボイス番号はどこで確認できますか？', a:'国税庁の適格請求書発行事業者公表サイトで確認できます。'},
+    {id:58, cat:'invoice', q:'インボイス番号がない請求書は経費になりませんか？', a:'経費処理と消費税の仕入税額控除は別です。消費税計算に影響する場合があります。'},
+    {id:59, cat:'invoice', q:'レシートもインボイスになりますか？', a:'必要事項が記載されていれば、簡易インボイスとして扱える場合があります。'},
+    {id:60, cat:'invoice', q:'免税事業者への支払いはどうなりますか？', a:'経費にはなり得ますが、消費税の仕入税額控除に制限が生じる場合があります。'},
+    {id:61, cat:'invoice', q:'請求書の保存期間はどのくらいですか？', a:'税務上の保存義務があります。法人・個人、書類の種類により異なるため確認が必要です。'},
+    {id:62, cat:'invoice', q:'電子帳簿保存法とは何ですか？', a:'税務関係帳簿書類や電子取引データの保存方法を定める制度です。'},
+    {id:63, cat:'invoice', q:'メールで受け取った請求書は印刷すればよいですか？', a:'電子取引データは、原則としてデータで保存する必要があります。保存方法を確認してください。'},
+    {id:64, cat:'invoice', q:'Amazonや楽天の領収書はどう保存しますか？', a:'PDFや購入履歴などの電子データを、検索できる形で保存する必要があります。'},
+    {id:65, cat:'invoice', q:'クラウド会計に保存すれば大丈夫ですか？', a:'要件を満たす形で保存されているか確認が必要です。システムの仕様も確認してください。'},
+
+    {id:66, cat:'shaho', q:'従業員を採用したら何が必要ですか？', a:'雇用契約書、扶養情報、マイナンバー、社会保険、雇用保険、給与計算情報を確認します。'},
+    {id:67, cat:'shaho', q:'社会保険の加入手続はいつまでですか？', a:'健康保険・厚生年金の資格取得届は、原則として事実発生から5日以内です。'},
+    {id:68, cat:'shaho', q:'社会保険に加入する人は誰ですか？', a:'法人の常勤役員・従業員、一定の勤務条件を満たすパート等が対象になります。'},
+    {id:69, cat:'shaho', q:'パートも社会保険に入りますか？', a:'勤務時間、賃金、勤務先の規模等により加入対象になる場合があります。'},
+    {id:70, cat:'shaho', q:'従業員が退職したら何が必要ですか？', a:'社会保険・雇用保険の喪失、離職票、源泉徴収票、住民税の異動届などを確認します。'},
+    {id:71, cat:'shaho', q:'社会保険の喪失日はいつですか？', a:'原則として退職日の翌日が喪失日です。'},
+    {id:72, cat:'shaho', q:'賞与を支給したら何が必要ですか？', a:'賞与支払届、源泉所得税、社会保険料、雇用保険料の確認が必要です。'},
+    {id:73, cat:'shaho', q:'算定基礎届とは何ですか？', a:'4月・5月・6月の報酬をもとに、社会保険の標準報酬月額を見直す手続です。'},
+    {id:74, cat:'shaho', q:'算定基礎届はいつ提出しますか？', a:'原則として毎年7月10日までです。'},
+    {id:75, cat:'shaho', q:'月額変更届とは何ですか？', a:'固定的賃金の変動により、標準報酬月額を随時改定する手続です。'},
+    {id:76, cat:'shaho', q:'役員報酬を変えると社会保険も変わりますか？', a:'変更内容により標準報酬月額が変わる場合があります。税務と社会保険の両方で確認が必要です。'},
+    {id:77, cat:'shaho', q:'通勤手当は社会保険の報酬に入りますか？', a:'原則として社会保険の報酬に含まれます。所得税の非課税通勤手当とは扱いが異なります。'},
+    {id:78, cat:'shaho', q:'給与計算で毎月確認することは？', a:'勤怠、残業、欠勤、扶養、通勤手当、社会保険料、雇用保険料、源泉所得税、住民税を確認します。'},
+    {id:79, cat:'shaho', q:'住民税の特別徴収とは何ですか？', a:'従業員の住民税を給与から天引きし、会社が自治体へ納付する制度です。'},
+    {id:80, cat:'shaho', q:'住民税はいつ納付しますか？', a:'原則として、徴収した月の翌月10日までです。'},
+
+    {id:81, cat:'koyo', q:'雇用保険は誰が対象ですか？', a:'週の所定労働時間や雇用見込み期間などの要件を満たす労働者が対象です。'},
+    {id:82, cat:'koyo', q:'雇用保険の資格取得届はいつまでですか？', a:'原則として、雇用した日の属する月の翌月10日までです。'},
+    {id:83, cat:'koyo', q:'雇用保険の資格喪失届はいつまでですか？', a:'原則として、被保険者でなくなった日の翌日から10日以内です。'},
+    {id:84, cat:'koyo', q:'離職票は必ず必要ですか？', a:'退職者が希望する場合や失業給付の手続に必要な場合があります。'},
+    {id:85, cat:'koyo', q:'役員は雇用保険に入りますか？', a:'原則として役員は対象外ですが、使用人兼務役員などは個別確認が必要です。'},
+    {id:86, cat:'koyo', q:'労働保険とは何ですか？', a:'労災保険と雇用保険を合わせた制度です。'},
+    {id:87, cat:'koyo', q:'労働保険の年度更新とは何ですか？', a:'前年度の確定保険料と当年度の概算保険料を申告・納付する手続です。'},
+    {id:88, cat:'koyo', q:'年度更新はいつ行いますか？', a:'例年6月1日から7月10日までです。年度により案内を確認してください。'},
+    {id:89, cat:'koyo', q:'アルバイトにも労災保険はありますか？', a:'労災保険は、原則として労働者であれば雇用形態にかかわらず対象になります。'},
+    {id:90, cat:'koyo', q:'労災事故が起きたらどうすればよいですか？', a:'まず安全確保と医療機関対応を行い、労災手続の要否を確認してください。'},
+
+    {id:91, cat:'kojin', q:'個人事業主の確定申告はいつですか？', a:'所得税は原則として翌年2月16日から3月15日までです。消費税は別途期限があります。'},
+    {id:92, cat:'kojin', q:'青色申告とは何ですか？', a:'帳簿を整備し、一定の要件を満たすことで特典を受けられる申告制度です。'},
+    {id:93, cat:'kojin', q:'青色申告の承認申請はいつまでですか？', a:'原則として開業日や適用開始年に応じて期限があります。早めに確認してください。'},
+    {id:94, cat:'kojin', q:'開業したら何を提出しますか？', a:'開業届、青色申告承認申請書、給与支払事務所等の開設届などが必要になる場合があります。'},
+    {id:95, cat:'kojin', q:'個人事業主もインボイス登録が必要ですか？', a:'取引先や売上規模により判断が必要です。登録すると消費税の申告義務が発生する場合があります。'},
+    {id:96, cat:'kojin', q:'家事関連費は経費になりますか？', a:'事業に必要な部分を合理的に区分できる場合、経費になる可能性があります。'},
+    {id:97, cat:'kojin', q:'自宅家賃は経費になりますか？', a:'事業使用部分が明確であれば、按分して経費にできる場合があります。'},
+    {id:98, cat:'kojin', q:'車両費は経費になりますか？', a:'事業使用割合に応じて経費になる場合があります。走行記録などの保存が重要です。'},
+    {id:99, cat:'kojin', q:'医療費控除は事業の経費ですか？', a:'通常は事業経費ではなく、個人の所得控除として確定申告で扱います。'},
+    {id:100, cat:'kojin', q:'ふるさと納税は経費ですか？', a:'通常は事業経費ではなく、個人の寄附金控除として扱います。'},
+
+    {id:101, cat:'ai', q:'AIに税金の質問をしてよいですか？', a:'一般的な調べものには使えますが、税務判断は必ず専門家または公的情報で確認してください。'},
+    {id:102, cat:'ai', q:'AIに決算書を入れてよいですか？', a:'入力しないでください。決算書、申告書、給与明細、顧客名簿、契約書などの機密情報は入力しないでください。'},
+    {id:103, cat:'ai', q:'ChatGPTは登録なしで使えますか？', a:'登録なしで試せる場合があります。ただし、機能や利用状況によりログインが必要になる場合があります。'},
+    {id:104, cat:'ai', q:'AIで作った文章はそのまま使えますか？', a:'そのまま使わず、事実関係、数字、期限、相手先名を確認してから利用してください。'},
+    {id:105, cat:'ai', q:'AIにメール文を作らせてもよいですか？', a:'機密情報を除いたうえで、下書き作成には利用できます。送信前に必ず人が確認してください。'},
+    {id:106, cat:'ai', q:'AIに契約書を読ませてもよいですか？', a:'機密情報や個人情報を含む契約書は入力しないでください。必要な場合は専門家に相談してください。'},
+    {id:107, cat:'ai', q:'AIの税務回答が正しそうです。信用してよいですか？', a:'AIは誤った回答をすることがあります。税額、期限、届出、申告内容は必ず確認してください。'},
+    {id:108, cat:'ai', q:'AIで領収書整理はできますか？', a:'画像認識や分類には使える場合がありますが、最終的な税務処理は確認が必要です。'},
+    {id:109, cat:'ai', q:'AIにマイナンバーを入れてよいですか？', a:'入力しないでください。マイナンバーや本人確認書類は特に慎重に管理してください。'},
+    {id:110, cat:'ai', q:'AIを安全に使うコツは？', a:'個人情報・機密情報を削除し、一般化した内容で質問してください。判断が必要な内容は当事務所へご相談ください。'}
+  ];
+
+  const DYNAMIC_ANSWERS = {
+    1: ctx => `決算月、中間申告月、源泉所得税の納付月に該当するかを確認してください。今月(${ctx.month}月)は、<b>${ctx.finalMonth}月決算法人</b>の確定申告、<b>${ctx.interimMonth}月決算法人</b>の中間申告が対象となる可能性があります。e-Tax、eLTAX、地方税お支払サイトの通知もご確認ください。`,
+    2: ctx => `原則として、今月の2か月前に決算を迎えた法人が対象です。今月(${ctx.month}月)の場合は、<b>${ctx.finalMonth}月決算法人</b>が対象です。`,
+    3: ctx => `原則として、今月の8か月前に決算を迎えた法人が対象になる場合があります。今月(${ctx.month}月)の場合は、<b>${ctx.interimMonth}月決算法人</b>が対象になる可能性があります。`,
+    43: ctx => {
+      const base = '納期の特例の納付期限は、1月〜6月分が7月10日、7月〜12月分が翌年1月20日です。';
+      if(ctx.month === 7) return base + `今月(7月)は、<b>1月〜6月分の納付月</b>にあたります。`;
+      if(ctx.month === 1) return base + `今月(1月)は、<b>7月〜12月分の納付月</b>にあたります。`;
+      return base + '今月は、この特例の納付月ではありません。';
+    }
+  };
+
+  const QUICK = [
+    {label:'今月の申告・納付を確認したい', faq:1},
+    {label:'法人税・消費税の期限を知りたい', custom:{
+      title:'法人税・消費税の申告期限',
+      html:'法人税は原則として事業年度終了の日の翌日から2か月以内、消費税(法人)も原則として課税期間終了の日の翌日から2か月以内に申告・納付します。',
+      links:['etax','eltax']
+    }},
+    {label:'中間申告が必要か確認したい', faq:3},
+    {label:'源泉所得税の納期の特例を確認したい', faq:43},
+    {label:'e-Taxを確認したい', faq:26},
+    {label:'eLTAXを確認したい', faq:27},
+    {label:'地方税を納付したい', faq:39},
+    {label:'税務署からメールが来た', faq:30},
+    {label:'従業員を採用した', faq:66},
+    {label:'従業員が退職した', faq:70},
+    {label:'年末調整で何を集めるか知りたい', faq:49},
+    {label:'AIを安全に使いたい', faq:110}
+  ];
+
+  const AI_FALLBACK_HTML = `<a class="th-ai-fallback" href="https://chatgpt.com/" target="_blank" rel="noopener">AIで調べる<small>別ページ(ChatGPT)に移動します</small></a>`;
+
+  function norm(s){
+    return (s||'').toLowerCase()
+      .replace(/[ァ-ン]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0x60))
+      .replace(/[Ａ-Ｚａ-ｚ０-９]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0xFEE0))
+      .replace(/\s+/g,'');
+  }
+
+  function faqById(id){ return FAQ.find(f => f.id === id); }
+
+  function answerHtmlFor(item){
+    return DYNAMIC_ANSWERS[item.id] ? DYNAMIC_ANSWERS[item.id](CTX) : item.a;
+  }
+
+  function linksHtmlFor(keys){
+    if(!keys || !keys.length) return '';
+    return `<div class="th-answer-links">${keys.map(k => `<a href="${LINKS[k].href}" target="_blank" rel="noopener">${LINKS[k].label}</a>`).join('')}</div>`;
+  }
+
+  // ---- ナビゲーション(戻る対応のスタック) ----
+  let stack = [{type:'quick'}];
+
+  function push(view){ stack.push(view); render(view); }
+  function goBack(){
+    if(stack.length > 1){ stack.pop(); render(stack[stack.length - 1]); }
+  }
+  function resetTo(views){ stack = views; render(stack[stack.length - 1]); }
+
+  function render(view){
+    if(searchInput) searchInput.value = '';
+    switch(view.type){
+      case 'quick': renderQuick(); break;
+      case 'category-list': renderCategoryList(); break;
+      case 'category-questions': renderCategoryQuestions(view.cat); break;
+      case 'answer': renderAnswer(view); break;
+    }
+  }
+
+  function renderQuick(){
+    body.innerHTML = `
+      <p class="th-intro">確認したい内容を選んでください。</p>
+      <div class="th-quick">
+        ${QUICK.map((item, i) => `<button class="th-menu-btn" data-quick="${i}">${item.label}</button>`).join('')}
+      </div>
+      <button class="th-browse-link" id="th-browse-btn">すべての質問を見る(全${FAQ.length}問)</button>
+      ${AI_FALLBACK_HTML}
+    `;
+    body.querySelectorAll('[data-quick]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = QUICK[Number(btn.dataset.quick)];
+        if(item.faq){
+          push({type:'answer', faqId:item.faq});
+        }else{
+          push({type:'answer', custom:item.custom});
+        }
+      });
+    });
+    document.getElementById('th-browse-btn').addEventListener('click', () => push({type:'category-list'}));
+  }
+
+  function renderCategoryList(){
+    body.innerHTML = `
+      <button class="th-back" id="th-back-btn">← メニューに戻る</button>
+      <p class="th-intro">分野を選んでください。</p>
+      ${CATS.map(cat => {
+        const count = FAQ.filter(f => f.cat === cat.id).length;
+        return `<button class="th-cat-btn" data-cat="${cat.id}"><span>${cat.name}</span><span class="count">${count}問</span></button>`;
+      }).join('')}
+    `;
+    document.getElementById('th-back-btn').addEventListener('click', goBack);
+    body.querySelectorAll('[data-cat]').forEach(btn => {
+      btn.addEventListener('click', () => push({type:'category-questions', cat: btn.dataset.cat}));
+    });
+  }
+
+  function renderCategoryQuestions(catId){
+    const cat = CATS.find(c => c.id === catId);
+    const items = FAQ.filter(f => f.cat === catId);
+    body.innerHTML = `
+      <button class="th-back" id="th-back-btn">← 分野一覧に戻る</button>
+      <p class="th-intro">${cat.name}</p>
+      <div class="th-quick">
+        ${items.map(item => `<button class="th-menu-btn" data-faq="${item.id}">${item.q}</button>`).join('')}
+      </div>
+    `;
+    document.getElementById('th-back-btn').addEventListener('click', goBack);
+    body.querySelectorAll('[data-faq]').forEach(btn => {
+      btn.addEventListener('click', () => push({type:'answer', faqId: Number(btn.dataset.faq)}));
+    });
+  }
+
+  function renderAnswer(view){
+    let title, html, links;
+    if(view.custom){
+      title = view.custom.title; html = view.custom.html; links = view.custom.links;
+    }else{
+      const item = faqById(view.faqId);
+      title = item.q; html = answerHtmlFor(item); links = item.links;
+    }
+    body.innerHTML = `
+      <button class="th-back" id="th-back-btn">← 戻る</button>
+      <div class="th-answer">
+        <h4>${title}</h4>
+        <p>${html}</p>
+        ${linksHtmlFor(links)}
+      </div>
+    `;
+    document.getElementById('th-back-btn').addEventListener('click', goBack);
+  }
+
+  function renderSearchResults(term){
+    const kw = norm(term);
+    const results = FAQ.filter(f => norm(f.q + ' ' + f.a).includes(kw));
+    if(results.length === 0){
+      body.innerHTML = `
+        <p class="th-empty">該当する質問が見つかりませんでした。<br>言葉を変えるか、下のAIで調べてみてください。</p>
+        ${AI_FALLBACK_HTML}
+      `;
+      return;
+    }
+    body.innerHTML = `
+      <p class="th-intro">「${term}」の検索結果(${results.length}件)</p>
+      <div class="th-quick">
+        ${results.map(item => `<button class="th-menu-btn" data-faq="${item.id}">${item.q}</button>`).join('')}
+      </div>
+    `;
+    body.querySelectorAll('[data-faq]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        resetTo([{type:'quick'}, {type:'answer', faqId: Number(btn.dataset.faq)}]);
+      });
+    });
+  }
+
+  function openPanel(){
+    panel.classList.add('open');
+    toggle.setAttribute('aria-expanded','true');
+    stack = [{type:'quick'}];
+    render(stack[0]);
+    const firstBtn = body.querySelector('.th-menu-btn');
+    if(firstBtn) firstBtn.focus();
+  }
+  function closePanel(){
+    panel.classList.remove('open');
+    toggle.setAttribute('aria-expanded','false');
+    toggle.focus();
+  }
+
+  toggle.addEventListener('click', () => {
+    panel.classList.contains('open') ? closePanel() : openPanel();
+  });
+  closeBtn.addEventListener('click', closePanel);
+  document.addEventListener('keydown', (e) => {
+    if(e.key === 'Escape' && panel.classList.contains('open')) closePanel();
+  });
+  document.addEventListener('click', (e) => {
+    if(panel.classList.contains('open') && !panel.contains(e.target) && e.target !== toggle && !toggle.contains(e.target)){
+      closePanel();
+    }
+  });
+
+  searchInput.addEventListener('input', () => {
+    const term = searchInput.value.trim();
+    if(term){ renderSearchResults(term); }
+    else { render(stack[stack.length - 1]); }
+  });
+})();
+
+</script>
+
+</body>
+</html>
